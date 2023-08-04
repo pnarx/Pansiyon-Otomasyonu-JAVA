@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RezervasyonController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="524.0" prefWidth="810.0">
+         <children>
+            <Label layoutX="49.0" layoutY="31.0" text="REZERVASYON " textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="49.0" layoutY="93.0" text="REZERVASYON FORMU" textFill="#845454">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="125.0" text="________________________________________________________________________________________________________________________________" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txt_ad" layoutX="47.0" layoutY="175.0" prefHeight="26.0" prefWidth="199.0" promptText="Adınız" />
+            <TextField fx:id="txt_soyad" layoutX="47.0" layoutY="223.0" prefHeight="26.0" prefWidth="199.0" promptText="Soyadınız" />
+            <TextField fx:id="txt_tel" layoutX="47.0" layoutY="282.0" prefHeight="26.0" prefWidth="199.0" promptText="Telefon Numaranız" />
+            <TextField fx:id="txt_mail" layoutX="274.0" layoutY="175.0" prefHeight="26.0" prefWidth="199.0" promptText="E-Posta Adresiniz" />
+            <TextField fx:id="txt_kisisayı" layoutX="274.0" layoutY="282.0" prefHeight="26.0" prefWidth="199.0" promptText="Kişi Sayısı" />
+            <TextField fx:id="txt_gsm" layoutX="48.0" layoutY="328.0" prefHeight="26.0" prefWidth="199.0" promptText="GSM Numaranız" />
+            <TextField fx:id="txt_cocuksayi" layoutX="272.0" layoutY="328.0" prefHeight="26.0" prefWidth="199.0" promptText="Çocuk Sayısı" />
+            <DatePicker fx:id="dtpck_giris" layoutX="511.0" layoutY="174.0" prefHeight="26.0" prefWidth="244.0" promptText="Giriş Tarihi" />
+            <DatePicker fx:id="dtpck_cikis" layoutX="512.0" layoutY="222.0" prefHeight="26.0" prefWidth="244.0" promptText="Çıkış Tarihi" />
+            <TextArea fx:id="txt_not" layoutX="513.0" layoutY="262.0" prefHeight="94.0" prefWidth="244.0" promptText="Özel Notlar" />
+            <Button fx:id="btn_gönder" layoutX="612.0" layoutY="374.0" mnemonicParsing="false" onAction="#btn_gönder" prefHeight="26.0" prefWidth="145.0" text="GÖNDER" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="cmb_oda" layoutX="274.0" layoutY="224.0" prefHeight="26.0" prefWidth="199.0" promptText="Oda Tipi" />
+            <Button fx:id="btn_renk" layoutY="436.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="809.0" textFill="#845454" />
+            <Label fx:id="lbl_sonuc" layoutX="513.0" layoutY="406.0" prefHeight="18.0" prefWidth="244.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="798.0" prefWidth="1004.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ANASAYFAController">
+   <children>
+      <AnchorPane fx:id="anchor_tüm" onDragDetected="#anchor_tüm_Click" prefHeight="702.0" prefWidth="814.0">
+         <children>
+            <AnchorPane layoutY="1.0" prefHeight="38.0" prefWidth="1004.0" style="-fx-background-color: #F1EAE7;">
+               <children>
+                  <Label layoutX="48.0" layoutY="14.0" text="0555555555">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="190.0" layoutY="14.0" text="istepansiyon@gmail.com">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="18.0" fitWidth="33.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Masaüstü/İSTE%20PANSİYON/png-transparent-telephone-icon-telephone-cv-salami-tehnik-utama-email-call-icon-text-hand-monochrome.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="18.0" fitWidth="25.0" layoutX="167.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Masaüstü/İSTE%20PANSİYON/istockphoto-1188904072-170667a.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="anchor_alt" layoutY="588.0" prefHeight="208.0" prefWidth="1004.0" style="-fx-background-color: #B68059;">
+               <children>
+                  <Label fx:id="lbl_hakimizda" layoutX="43.0" layoutY="15.0" prefHeight="26.0" prefWidth="86.0" text="Hakkımızda" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbl_hizmetler" layoutX="290.0" layoutY="21.0" text="İSTE Pansiyon Hizmetleri">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbl_ileitsim" layoutX="554.0" layoutY="20.0" text="İletişim Bilgilerimiz">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Text fx:id="txt_hak" layoutX="42.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <Text fx:id="txt_hiz" layoutX="300.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <Text fx:id="txt_ilet" layoutX="568.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+               </children></AnchorPane>
+            <AnchorPane fx:id="anchor_orta" layoutY="65.0" prefHeight="526.0" prefWidth="1004.0" style="-fx-background-color: #F1EAE7;">
+               <children>
+                  <ImageView fitHeight="535.0" fitWidth="957.0" layoutX="242.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@görseller--main/anafoto.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+            <AnchorPane fx:id="anchor_üst" layoutY="39.0" prefHeight="26.0" prefWidth="1004.0" style="-fx-background-color: #B68059;">
+               <children>
+                  <Button fx:id="btn_fiyat" layoutX="336.0" mnemonicParsing="false" onAction="#btn_fiyat_Click" prefHeight="26.0" prefWidth="86.0" text="FİYAT" />
+                  <Button fx:id="btn_iletisim" layoutX="251.0" mnemonicParsing="false" onAction="#btn_iletisim_Click" prefHeight="26.0" prefWidth="86.0" text="İLETİŞİM" />
+                  <Button fx:id="btn_anasayfa" layoutX="157.0" mnemonicParsing="false" onAction="#btn_Anasayfa_Click" prefHeight="26.0" prefWidth="95.0" text="ANASAYFA" />
+                  <Button fx:id="btn_yorumlar" layoutX="506.0" mnemonicParsing="false" onAction="#btn_yorumlar_Click" prefHeight="26.0" prefWidth="86.0" text="YORUMLAR" />
+                  <Button fx:id="btn_odalar" layoutX="421.0" mnemonicParsing="false" onAction="#btn_odalar_Click" prefHeight="26.0" prefWidth="86.0" text="ODALAR" />
+                  <Button fx:id="btn_giris" layoutX="778.0" layoutY="-1.0" mnemonicParsing="false" onAction="#btn_giris_Click" prefHeight="26.0" prefWidth="58.0" text="GİRİS" />
+                  <Button fx:id="btn_hakkimizda" layoutX="592.0" mnemonicParsing="false" onAction="#btn_hakkimizda_Click" prefHeight="26.0" prefWidth="86.0" text="HAKKIMIZDA" />
+                  <Button fx:id="btn_rezerve" layoutX="677.0" layoutY="-1.0" mnemonicParsing="false" onAction="#btn_rezerve_Click" prefHeight="26.0" prefWidth="102.0" text="REZERVASYON" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

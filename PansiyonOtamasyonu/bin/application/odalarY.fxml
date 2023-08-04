@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.odalarYController">
+   <children>
+      <AnchorPane fx:id="anchor_ilk" layoutX="3.0" prefHeight="472.0" prefWidth="1004.0">
+         <children>
+            <ToggleButton fx:id="btn_s1" layoutX="34.0" layoutY="98.0" mnemonicParsing="false" onAction="#btn_s1_Click" prefHeight="54.0" prefWidth="150.0" text="No 1" />
+            <ToggleButton fx:id="btn_s4" layoutX="34.0" layoutY="315.0" mnemonicParsing="false" onAction="#btn_s4_Click" prefHeight="54.0" prefWidth="150.0" text="No 4" />
+            <ToggleButton fx:id="btn_s2" layoutX="35.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_s2_Click" prefHeight="54.0" prefWidth="150.0" text="No 2" />
+            <ToggleButton fx:id="btn_s5" layoutX="34.0" layoutY="384.0" mnemonicParsing="false" onAction="#btn_s5_Click" prefHeight="63.0" prefWidth="150.0" text="No 5" />
+            <ToggleButton fx:id="btn_s3" layoutX="34.0" layoutY="247.0" mnemonicParsing="false" onAction="#btn_s3_Click" prefHeight="54.0" prefWidth="150.0" text="No 3" />
+            <ToggleButton fx:id="btn_s6" layoutX="372.0" layoutY="98.0" mnemonicParsing="false" onAction="#btn_s6_Click" prefHeight="54.0" prefWidth="150.0" text="No 6" />
+            <ToggleButton fx:id="btn_s9" layoutX="372.0" layoutY="314.0" mnemonicParsing="false" onAction="#btn_s9_Click" prefHeight="63.0" prefWidth="150.0" text="No 9" />
+            <ToggleButton fx:id="btn_s7" layoutX="372.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_s7_Click" prefHeight="54.0" prefWidth="150.0" text="No 7" />
+            <ToggleButton fx:id="btn_s10" layoutX="372.0" layoutY="388.0" mnemonicParsing="false" onAction="#btn_s10_Click" prefHeight="63.0" prefWidth="150.0" text="No 10" />
+            <ToggleButton fx:id="btn_s8" layoutX="372.0" layoutY="244.0" mnemonicParsing="false" onAction="#btn_s8_Click" prefHeight="54.0" prefWidth="150.0" text="No 8" />
+            <ToggleButton fx:id="btn_s11" layoutX="657.0" layoutY="98.0" mnemonicParsing="false" onAction="#btn_s11_Click" prefHeight="54.0" prefWidth="150.0" text="No 11" />
+            <ToggleButton fx:id="btn_s14" layoutX="656.0" layoutY="315.0" mnemonicParsing="false" onAction="#btn_s14_Click" prefHeight="63.0" prefWidth="150.0" text="No 14" />
+            <ToggleButton fx:id="btn_s12" layoutX="657.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_s12_Click" prefHeight="54.0" prefWidth="150.0" text="No 12" />
+            <ToggleButton fx:id="btn_s15" layoutX="657.0" layoutY="388.0" mnemonicParsing="false" onAction="#btn_s15_Click" prefHeight="63.0" prefWidth="150.0" text="No 15" />
+            <ToggleButton fx:id="btn_s13" layoutX="656.0" layoutY="246.0" mnemonicParsing="false" onAction="#btn_s13_Click" prefHeight="54.0" prefWidth="150.0" text="No 13" />
+            <Label layoutX="40.0" layoutY="55.0" text="Standart Odalar" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="54.0" prefHeight="27.0" prefWidth="150.0" text="Balkonlu Odalar" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="660.0" layoutY="61.0" prefHeight="27.0" prefWidth="150.0" text="Teras Kat Odalar" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="261.0" layoutY="93.0" mnemonicParsing="false" prefHeight="373.0" prefWidth="19.0" textFill="#815555" />
+            <Button layoutX="585.0" layoutY="89.0" mnemonicParsing="false" prefHeight="382.0" prefWidth="19.0" textFill="#815555" />
+            <Button fx:id="btn_geri" layoutX="35.0" layoutY="14.0" mnemonicParsing="false" onAction="#btn_geri_Click" text="Geri">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

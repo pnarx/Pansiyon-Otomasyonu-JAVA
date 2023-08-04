@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.mesajlarYController">
+   <children>
+      <AnchorPane prefHeight="524.0" prefWidth="626.0">
+         <children>
+            <TableView fx:id="tableview_iletisim" layoutX="1.0" layoutY="269.0" prefHeight="255.0" prefWidth="626.0">
+              <columns>
+                <TableColumn fx:id="col_id" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="col_ad" prefWidth="90.4000244140625" text="AD" />
+                  <TableColumn fx:id="col_soyad" prefWidth="79.20001220703125" text="SOYAD" />
+                  <TableColumn fx:id="col_mail" prefWidth="92.79998779296875" text="TELEFON" />
+                  <TableColumn fx:id="col_tel" prefWidth="112.79998779296875" text="MAİL" />
+                  <TableColumn fx:id="col_mesaj" prefWidth="365.60003662109375" text="MESAJ" />
+              </columns>
+            </TableView>
+            <Label layoutX="96.0" layoutY="65.0" text="Alıcı :" textFill="#845454" />
+            <Label layoutX="95.0" layoutY="103.0" text="Gönderen :" textFill="#845454" />
+            <Label fx:id="lbl_id" layoutX="155.0" layoutY="36.0" />
+            <Label layoutX="98.0" layoutY="138.0" text="Mesaj :" textFill="#845454" />
+            <TextField fx:id="txt_alıcı" alignment="CENTER_RIGHT" layoutX="165.0" layoutY="61.0" prefHeight="26.0" prefWidth="538.0" promptText="Alıcı E-posta" />
+            <TextField fx:id="txt_gönderen" alignment="CENTER_RIGHT" layoutX="165.0" layoutY="96.0" prefHeight="26.0" prefWidth="538.0" promptText="Gönderen E-posat" />
+            <TextArea fx:id="txt_mesaj" layoutX="165.0" layoutY="132.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="110.0" prefWidth="538.0" promptText="Mesaj" />
+            <Button fx:id="btn_gönder" layoutX="717.0" layoutY="64.0" mnemonicParsing="false" onAction="#btn_gönder_Click" prefHeight="195.0" prefWidth="70.0" text="Gönder" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="lbl_sonuc" layoutX="165.0" layoutY="250.0" prefHeight="18.0" prefWidth="538.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

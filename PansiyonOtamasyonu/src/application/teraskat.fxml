@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.teraskatController">
+   <children>
+      <AnchorPane prefHeight="524.0" prefWidth="625.0">
+         <children>
+            <Label layoutX="24.0" layoutY="19.0" text="Teras Kat Oda" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="txt_trsoda" layoutX="24.0" layoutY="46.0" prefHeight="184.0" prefWidth="578.0" />
+            <ImageView fitHeight="139.0" fitWidth="159.0" layoutX="24.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/trs1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="122.0" fitWidth="146.0" layoutX="279.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/trs6.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="391.0" fitWidth="185.0" layoutX="430.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/trs7.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="140.0" layoutX="159.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/trs2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="127.0" layoutX="24.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/trs4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="118.0" layoutX="159.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/trs5.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="292.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/trs3.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

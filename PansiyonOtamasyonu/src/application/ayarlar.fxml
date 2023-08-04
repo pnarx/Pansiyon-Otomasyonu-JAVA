@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ayarlarController">
+   <children>
+      <AnchorPane prefHeight="524.0" prefWidth="626.0" style="-fx-background-color: #F1EAE7;">
+         <children>
+            <TableView fx:id="tableview_yöneticiler" layoutY="247.0" onMouseClicked="#tableview_yöneticiler_MouseClick" prefHeight="279.0" prefWidth="626.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="247.0">
+              <columns>
+                <TableColumn fx:id="col_id" prefWidth="37.60000455379486" text="ID" />
+                <TableColumn fx:id="col_ad" prefWidth="133.60001373291016" text="AD" />
+                  <TableColumn fx:id="col_soy" prefWidth="143.20001220703125" text="SOYAD" />
+                  <TableColumn fx:id="col_mail" prefWidth="168.79998779296875" text="E-MAİL" />
+                  <TableColumn fx:id="col_sifre" prefWidth="141.60000610351562" text="ŞİFRE" />
+              </columns>
+            </TableView>
+            <Button fx:id="btn_güncelle" layoutX="451.0" layoutY="74.0" mnemonicParsing="false" onAction="#btn_güncelle_Click" prefHeight="26.0" prefWidth="106.0" text="Güncelle" />
+            <Button fx:id="btn_sil" layoutX="451.0" layoutY="119.0" mnemonicParsing="false" onAction="#btn_sil_Click" prefHeight="26.0" prefWidth="106.0" text="Sil" />
+            <Button fx:id="btn_yenile" layoutX="451.0" layoutY="163.0" mnemonicParsing="false" onAction="#btn_yenile" prefHeight="26.0" prefWidth="106.0" text="Yenile" />
+            <Label fx:id="lbl_id" layoutX="128.0" layoutY="32.0" prefHeight="18.0" prefWidth="152.0" textFill="#302929" />
+            <PasswordField fx:id="txt_sifre" alignment="CENTER_RIGHT" layoutX="128.0" layoutY="184.0" prefHeight="26.0" prefWidth="214.0" promptText="Şifre" />
+            <Button fx:id="btn_geri" alignment="BOTTOM_RIGHT" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btn_geri_Click" prefHeight="26.0" prefWidth="29.0" text="&lt;" textOverrun="LEADING_ELLIPSIS">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txt_ad" alignment="CENTER_RIGHT" layoutX="129.0" layoutY="62.0" prefHeight="26.0" prefWidth="214.0" promptText="Adınız" />
+            <TextField fx:id="txt_soy" alignment="CENTER_RIGHT" layoutX="129.0" layoutY="101.0" prefHeight="26.0" prefWidth="214.0" promptText="Soyadınız" />
+            <TextField fx:id="txt_mail" alignment="CENTER_RIGHT" layoutX="129.0" layoutY="145.0" prefHeight="26.0" prefWidth="214.0" promptText="E-Mail" />
+            <Label fx:id="lbl_sonuc" layoutX="390.0" layoutY="210.0" prefHeight="18.0" prefWidth="206.0" textFill="#e70909" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="513.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.rezerveYController">
+   <children>
+      <AnchorPane fx:id="anchor_ilk" layoutX="-2.0" prefHeight="524.0" prefWidth="626.0">
+         <children>
+            <Label fx:id="lbl_id" layoutX="112.0" layoutY="14.0" />
+            <TableView fx:id="tableview_rezervasyon" layoutY="257.0" prefHeight="248.0" prefWidth="922.0">
+              <columns>
+                <TableColumn fx:id="col_id" prefWidth="31.199982047080994" text="ID" />
+                <TableColumn fx:id="col_ad" prefWidth="76.79998588562012" text="AD" />
+                  <TableColumn fx:id="col_soy" prefWidth="75.20001983642578" text="SOYAD" />
+                  <TableColumn fx:id="col_tel" prefWidth="77.60002136230469" text="TEL" />
+                  <TableColumn fx:id="col_gsm" prefWidth="84.79998779296875" text="GSM" />
+                  <TableColumn fx:id="col_mail" prefWidth="87.20001220703125" text="MAİL" />
+                  <TableColumn fx:id="col_oda" prefWidth="69.60003662109375" text="ODA" />
+                  <TableColumn fx:id="col_ksayı" prefWidth="56.79998779296875" text="KİSİ SAYI" />
+                  <TableColumn fx:id="col_csayı" prefWidth="82.39996337890625" text="ÇOCUK SAYI" />
+                  <TableColumn fx:id="col_gtarih" prefWidth="76.79998779296875" text="GİRİŞ TARİH" />
+                  <TableColumn fx:id="col_ctarih" prefWidth="91.199951171875" text="ÇIKIŞ TARİH" />
+                  <TableColumn fx:id="col_mesaj" prefWidth="108.800048828125" text="MESAJ" />
+              </columns>
+            </TableView>
+            <Label fx:id="lbl_sonuc1" layoutX="112.0" layoutY="13.0" prefHeight="18.0" prefWidth="538.0" />
+            <Button fx:id="btn_kayıt" layoutX="730.0" layoutY="29.0" mnemonicParsing="false" onAction="#btn_kayıt_Click" prefHeight="195.0" prefWidth="70.0" text="Kayıt Yap" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="45.0" layoutY="46.0" text="Alıcı :" textFill="#845454" />
+            <Label layoutX="36.0" layoutY="80.0" text="Gönderen :" textFill="#845454" />
+            <Label layoutX="33.0" layoutY="118.0" text="Mesaj :" textFill="#845454" />
+            <TextField fx:id="txt_alıcı" alignment="CENTER_RIGHT" layoutX="112.0" layoutY="41.0" prefHeight="26.0" prefWidth="538.0" promptText="Alıcı E-posta" />
+            <TextField fx:id="txt_gönderen" alignment="CENTER_RIGHT" layoutX="112.0" layoutY="75.0" prefHeight="26.0" prefWidth="538.0" promptText="Gönderen E-posat" />
+            <TextArea fx:id="txt_mesaj" layoutX="112.0" layoutY="118.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="110.0" prefWidth="538.0" promptText="Mesaj" />
+            <Button fx:id="btn_gönder" layoutX="661.0" layoutY="29.0" mnemonicParsing="false" onAction="#btn_gönder_Click" prefHeight="195.0" prefWidth="59.0" text="Gönder" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="lbl_sonuc" layoutX="112.0" layoutY="228.0" prefHeight="18.0" prefWidth="538.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

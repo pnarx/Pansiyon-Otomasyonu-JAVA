@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.balkonluodaController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="524.0" prefWidth="625.0">
+         <children>
+            <Label layoutX="13.0" layoutY="19.0" text="Balkonlu Oda" textFill="#845454">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="txt_blkoda" layoutX="6.0" layoutY="52.0" prefHeight="177.0" prefWidth="611.0" />
+            <ImageView fitHeight="109.0" fitWidth="171.0" layoutX="14.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/blk1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="158.0" fitWidth="152.0" layoutX="9.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/blk8.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="109.0" fitWidth="195.0" layoutX="207.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/blk2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="158.0" fitWidth="132.0" layoutX="143.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/blk5.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="265.0" fitWidth="245.0" layoutX="384.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/blk7.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="266.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@görseller--main/blk6.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="526.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.fiyatController">
+   <children>
+      <AnchorPane prefHeight="526.0" prefWidth="933.0" style="-fx-background-color: #F1EAE7;">
+         <children>
+            <Label layoutX="422.0" layoutY="41.0" text="ODA FİYATLARI" textFill="#731e1e">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="112.0" layoutY="98.0" text="STANDART ODALAR" textFill="#865c5c">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="108.0" layoutY="367.0" text="TERAS KAT ODALAR" textFill="#865c5c">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="215.0" text="BALKONLU ODALAR" textFill="#865c5c">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_1" layoutX="161.0" layoutY="129.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 1" />
+            <Button fx:id="btn_4" layoutX="394.0" layoutY="129.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 4" />
+            <Button fx:id="btn_2" layoutX="243.0" layoutY="129.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="NO 2" />
+            <Button fx:id="btn_3" layoutX="319.0" layoutY="129.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="NO 3" />
+            <Button fx:id="btn_5" layoutX="475.0" layoutY="129.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 5" />
+            <Button layoutX="161.0" layoutY="155.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="200 TL" />
+            <Button layoutX="394.0" layoutY="155.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="200 TL" />
+            <Button layoutX="243.0" layoutY="155.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="200 TL" />
+            <Button layoutX="319.0" layoutY="155.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="200 TL" />
+            <Button layoutX="475.0" layoutY="155.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="200 TL" />
+            <Button fx:id="btn_6" layoutX="163.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 6" />
+            <Button fx:id="btn_9" layoutX="396.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 9" />
+            <Button fx:id="btn_7" layoutX="245.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="NO 7" />
+            <Button fx:id="btn_8" layoutX="321.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="NO 8" />
+            <Button fx:id="btn_10" layoutX="477.0" layoutY="249.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 10" />
+            <Button layoutX="163.0" layoutY="275.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="400 TL" />
+            <Button layoutX="396.0" layoutY="275.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="400 TL" />
+            <Button layoutX="245.0" layoutY="275.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="400 TL" />
+            <Button layoutX="321.0" layoutY="275.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="400 TL" />
+            <Button layoutX="477.0" layoutY="275.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="400 TL" />
+            <Button fx:id="btn_11" layoutX="163.0" layoutY="398.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 11" />
+            <Button fx:id="btn_14" layoutX="396.0" layoutY="398.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 14" />
+            <Button fx:id="btn_12" layoutX="245.0" layoutY="398.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="NO 12" />
+            <Button fx:id="btn_13" layoutX="321.0" layoutY="398.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="NO 13" />
+            <Button fx:id="btn_15" layoutX="477.0" layoutY="398.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="NO 15" />
+            <Button layoutX="163.0" layoutY="424.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="600 TL" />
+            <Button layoutX="396.0" layoutY="424.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="600 TL" />
+            <Button layoutX="245.0" layoutY="424.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="600  TL" />
+            <Button layoutX="321.0" layoutY="424.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="76.0" text="600 TL" />
+            <Button layoutX="477.0" layoutY="424.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="600 TL" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
